@@ -16,7 +16,7 @@ public class MakePhoneCall {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
         String from = "+15017122661";
-        String to = "+14155551212";
+        String to = "+1251931694003";
 
         Call call = Call.creator(new PhoneNumber(to), new PhoneNumber(from),
                 new URI("http://demo.twilio.com/docs/voice.xml")).create();
